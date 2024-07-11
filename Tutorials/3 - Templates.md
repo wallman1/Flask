@@ -1,3 +1,5 @@
+# Templates
+
 ### Step 1: Updating `routes.py` to Use Templates
 
 To move onto using templates in Flask, we'll update our `routes.py` to render an HTML page dynamically. Templates allow us to separate the HTML structure from the Python code, making the code cleaner and more manageable.

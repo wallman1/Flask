@@ -1,3 +1,5 @@
+# Template Loops and Inheritence
+
 ### Step 1: Updating the `index()` Function to Include Blog Posts
 
 We will first update the `index()` function in `routes.py` to include a list of blog posts. Each post will have an author and a body.

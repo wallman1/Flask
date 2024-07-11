@@ -1,3 +1,5 @@
+# Hello, World!
+
 ### Step 1: Setting Up the Flask Application Structure
 
 Next, we'll create the basic structure for our Flask application. This involves creating a folder named `app` and adding an `__init__.py` file with the following code:
