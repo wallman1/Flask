@@ -55,7 +55,12 @@ To install Email-Validator, run the following command:
 ```bash
 pip install email-validator
 ```
+#### 1.8 Installing aiosmtpd
 
+To install aiosmtpd, run the following command:
+```bash
+pip install aiosmtpd
+```
 ### Why These Modules?
 
 - **Flask**: A lightweight and flexible web framework for Python.
@@ -65,5 +70,6 @@ pip install email-validator
 - **Flask-Migrate**: Provides database migration support for Flask applications using SQLAlchemy.
 - **Flask-Login**: Manages user session and authentication, making it easier to handle user login, logout, and remembering users' sessions.
 - **Email-Validator**: Ensures that email addresses entered by users are valid, reducing the risk of errors and improving user experience.
+- **aiosmtpd**: Installed so we can use a fake email server that accepts emails but will print them to console.
 
-Now that you have Flask, python-dotenv, Flask-WTF, Flask-SQLAlchemy, Flask-Login, Email-Validator and Flask-Migrate installed, you're ready to proceed with building and managing your Flask application with forms and database support.
+Now that you have Flask, python-dotenv, Flask-WTF, Flask-SQLAlchemy, Flask-Login, Email-Validator, aiosmtpd and Flask-Migrate installed, you're ready to proceed with building and managing your Flask application with forms and database support.
