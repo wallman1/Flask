@@ -139,5 +139,3 @@ Here’s a practical example that combines these concepts:
     python -m flask db downgrade
     ```
   This undoes the last applied migration, rolling back changes.
-
-By following these steps, you will be able to perform advanced database operations using SQLAlchemy, leveraging the power of SQL with the convenience of Python.

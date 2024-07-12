@@ -42,6 +42,20 @@ To handle database migrations with Flask and SQLAlchemy, install `flask-migrate`
 pip install flask-migrate
 ```
 
+#### 1.6. Installing Flask-Login
+To install Flask-Login, run the following command:
+
+```bash
+pip install flask-login
+```
+
+#### 1.7. Installing Email-Validator
+To install Email-Validator, run the following command:
+
+```bash
+pip install email-validator
+```
+
 ### Why These Modules?
 
 - **Flask**: A lightweight and flexible web framework for Python.
@@ -49,25 +63,7 @@ pip install flask-migrate
 - **Flask-WTF**: Provides simple integration with WTForms, a flexible forms validation and rendering library for Flask applications.
 - **Flask-SQLAlchemy**: Integrates SQLAlchemy, a powerful SQL toolkit and Object-Relational Mapping (ORM) library, into Flask applications.
 - **Flask-Migrate**: Provides database migration support for Flask applications using SQLAlchemy.
+- **Flask-Login**: Manages user session and authentication, making it easier to handle user login, logout, and remembering users' sessions.
+- **Email-Validator**: Ensures that email addresses entered by users are valid, reducing the risk of errors and improving user experience.
 
-### Example Output
-
-After running the commands, you should see something like this in your terminal:
-
-```plaintext
-Collecting flask
-  Downloading Flask-2.0.2-py3-none-any.whl (95 kB)
-     |████████████████████████████████| 95 kB 3.3 MB/s 
-Collecting python-dotenv
-  Downloading python_dotenv-0.19.2-py2.py3-none-any.whl (18 kB)
-Collecting flask-wtf
-  Downloading Flask_WTF-1.0.0-py2.py3-none-any.whl (13 kB)
-Collecting flask-sqlalchemy
-  Downloading Flask_SQLAlchemy-2.5.2-py2.py3-none-any.whl (17 kB)
-Collecting flask-migrate
-  Downloading Flask_Migrate-3.2.1-py2.py3-none-any.whl (14 kB)
-Installing collected packages: flask, python-dotenv, flask-wtf, flask-sqlalchemy, flask-migrate
-Successfully installed flask-2.0.2 flask-migrate-3.2.1 flask-sqlalchemy-2.5.2 flask-wtf-1.0.0 python-dotenv-0.19.2
-```
-
-Now that you have Flask, python-dotenv, Flask-WTF, Flask-SQLAlchemy, and Flask-Migrate installed, you're ready to proceed with building and managing your Flask application with forms and database support.
+Now that you have Flask, python-dotenv, Flask-WTF, Flask-SQLAlchemy, Flask-Login, Email-Validator and Flask-Migrate installed, you're ready to proceed with building and managing your Flask application with forms and database support.

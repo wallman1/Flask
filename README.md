@@ -15,4 +15,11 @@ Read the Markdown files in the `Tutorials` folder for instructions in making you
 
 - Instead of 'flask run', use the following:
 
-    - ```python -m flask run```
+    ```bash 
+    python -m flask run
+    ```
+
+- To enter debug mode, you'll need to type the following instead:
+    ```bash
+    python -m flask run --debug
+    ```
