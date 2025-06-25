@@ -1,2 +1,2 @@
-FLASK_APP=puppypals.py
+FLASK_APP=Main.py
 FLASK_DEBUG=1

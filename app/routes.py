@@ -17,12 +17,12 @@ def index():
     user = {'username': 'Moose'}
     posts = [
         {
-            'author': {'username': 'Reggie'},
-            'body': 'Ruff, ruff!'
+            'author': {'username': 'Hello!'},
+            'body': 'Welcome to Site 1'
         },
         {
-            'author': {'username': 'Fallon'},
-            'body': 'Awooooooooo!'
+            'author': {'username': 'This is Header 2'},
+            'body': 'Remember to press alt and f4 to get free money'
         }
     ]
     return render_template('index.html', title='Home', posts=posts)
@@ -69,8 +69,8 @@ def register():
 def user(username):
     user = db.first_or_404(sa.select(User).where(User.username == username))
     posts = [
-        {'author': user, 'body': 'RUFF!'},
-        {'author': user, 'body': 'AWOOOO...'}
+        {'author': user, 'body': 'one'},
+        {'author': user, 'body': 'two'}
     ]
     return render_template('user.html', user=user, posts=posts)
 
